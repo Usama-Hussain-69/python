@@ -1,0 +1,8 @@
+print("Royal ")
+a=input("please enter your name")
+print(a[-1: :-1])
+print(len(a))
+print(a.lower())
+print(a.replace("a" , "A"))
+b=int(input("enter any number to add star"))
+print(a.center(b,"+"))
